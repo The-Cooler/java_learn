@@ -25,6 +25,8 @@ public class Main {
     Scanner sc = new Scanner(System.in);
     //读取输入
     a = sc.nextInt();
+    //关闭输入流
+    sc.close();
     //输出
     System.out.println("You entered: " + a);
 
